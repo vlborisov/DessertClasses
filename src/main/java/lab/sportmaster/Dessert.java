@@ -3,18 +3,18 @@ package lab.sportmaster;
 public class Dessert {
 
     String dessertName;
-    int proteinCount;
-    int carbohydratesCount;
-    int fatsCount;
+    protected int proteinCount;
+    protected int carbohydratesCount;
+    protected int fatsCount;
 
-    public Dessert(String dessertName, int proteinCount, int carbohydratesCount, int fatsCount){
+    public Dessert(String dessertName, int proteinCount, int carbohydratesCount, int fatsCount) {
         this.dessertName = dessertName;
         this.carbohydratesCount = carbohydratesCount;
         this.proteinCount = proteinCount;
         this.fatsCount = fatsCount;
     }
 
-    public int countCalories(){
+    public int countCalories() {
         return this.carbohydratesCount * 4 + this.proteinCount * 4 + this.fatsCount * 4;
     }
 
