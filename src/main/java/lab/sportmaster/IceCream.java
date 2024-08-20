@@ -2,8 +2,8 @@ package lab.sportmaster;
 
 public class IceCream extends  Dessert {
 
-    String iceCreamName;
-    String iceCreamTaste;
+    private String iceCreamName;
+    private String iceCreamTaste;
 
     public IceCream(String iceCreamName, String iceCreamTaste, int proteinCount, int carbohydratesCount, int fatsCount){
         super("Мороженое" ,proteinCount, fatsCount, carbohydratesCount);
