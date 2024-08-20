@@ -2,9 +2,9 @@ package lab.sportmaster;
 
 public class Chocolate extends Dessert {
 
-    String chocolateName;
-    String chocolateType;
-    int cacaoPercent;
+    private String chocolateName;
+    private String chocolateType;
+    private int cacaoPercent;
 
     public Chocolate(String chocolateName, String chocolateType ,int cacaoPercent, int proteinCount, int carbohydratesCount, int fatsCount) {
         super("Шоколад" ,proteinCount, fatsCount, carbohydratesCount);
